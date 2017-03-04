@@ -149,9 +149,12 @@ header {
   }
 }
 
+main {
+  background-color: $offWhite;
+}
+
 .group1 {
-    padding: 20px 0px 40px 0px;
-    background-color: $offWhite;
+  padding: 20px 0px 40px 0px;
   .sec {
     word-wrap: break-word;
     text-align: center;

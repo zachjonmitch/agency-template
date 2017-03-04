@@ -118,9 +118,11 @@ header {
       header .button2 {
         padding: 5px 24px; } }
 
-.group1 {
-  padding: 20px 0px 40px 0px;
+main {
   background-color: #f3ede7; }
+
+.group1 {
+  padding: 20px 0px 40px 0px; }
   .group1 .sec {
     word-wrap: break-word;
     text-align: center; }

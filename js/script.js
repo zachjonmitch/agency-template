@@ -30,20 +30,20 @@ $(document).ready(function() {
   //Testimonial quotes fade in when fa-arrow-right div is clicked.
   $('.fa-arrow-right').click(function() {
     var randomQuote = testimonials[Math.floor(Math.random() * testimonials.length)];
-    $('.quotes').hide().html(randomQuote.quote).fadeIn(2000);
-    $('.author').hide().html(randomQuote.author).fadeIn(2000);
+    $('.quotes').hide().html(randomQuote.quote).fadeIn(1000);
+    $('.author').hide().html(randomQuote.author).fadeIn(1000);
   });
   //Testimonial quotes fade in when fa-arrow-left div is clicked.
   $('.fa-arrow-left').click(function() {
     var randomQuote = testimonials[Math.floor(Math.random() * testimonials.length)];
-    $('.quotes').hide().html(randomQuote.quote).fadeIn(2000);
-    $('.author').hide().html(randomQuote.author).fadeIn(2000);
+    $('.quotes').hide().html(randomQuote.quote).fadeIn(1000);
+    $('.author').hide().html(randomQuote.author).fadeIn(1000);
   });
   
   //Testimonials fade in when dots are clicked.
   $('#dotsTwo').click(function() {
-    $('.quotes').hide().html(testimonials[0].quote).fadeIn(2000);
-    $('.author').hide().html(testimonials[0].author).fadeIn(2000);
+    $('.quotes').hide().html(testimonials[0].quote).fadeIn(1000);
+    $('.author').hide().html(testimonials[0].author).fadeIn(1000);
   });
   
   $('#dotsThree').click(function() {
