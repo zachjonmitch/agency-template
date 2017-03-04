@@ -76,6 +76,7 @@ nav {
     size: cover;
     repeat: no-repeat;
     attachment: fixed;
+    color: $offWhite;
   }
   .overlay {
     position: absolute;
@@ -150,6 +151,7 @@ header {
 
 .group1 {
     padding: 20px 0px 40px 0px;
+    background-color: $offWhite;
   .sec {
     word-wrap: break-word;
     text-align: center;

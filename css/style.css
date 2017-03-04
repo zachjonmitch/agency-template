@@ -54,7 +54,8 @@ nav {
   background-image: url("https://source.unsplash.com/UO02gAW3c0c");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-color: #f3ede7; }
   .flex-container .overlay {
     position: absolute;
     top: 0;
@@ -118,7 +119,8 @@ header {
         padding: 5px 24px; } }
 
 .group1 {
-  padding: 20px 0px 40px 0px; }
+  padding: 20px 0px 40px 0px;
+  background-color: #f3ede7; }
   .group1 .sec {
     word-wrap: break-word;
     text-align: center; }
