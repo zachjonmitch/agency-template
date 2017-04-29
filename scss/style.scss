@@ -149,6 +149,20 @@ header {
   }
 }
 
+.fa-angle-down {
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+    font-size: 45px;
+    text-align: center;
+    opacity: .6;
+    cursor: pointer;
+  }
+
 main {
   background-color: $offWhite;
 }
